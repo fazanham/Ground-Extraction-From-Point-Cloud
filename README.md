@@ -17,7 +17,7 @@ VTK (v7.0)<br/>
 Boost (v1.61)<br/>
 Flann
 
-## Setup
+# Setup
 You can find a detailed tutorial on setting up OpenCV within your Visual Studio environment here:
 https://www.deciphertechnic.com/install-opencv-with-visual-studio/
 
@@ -27,7 +27,7 @@ http://www.pointclouds.org/downloads/
 Fade2.5D is a great library for performing delaunay triangulation operations (2D, 2.5D and 3D). You can check out their page here for more information:
 http://www.geom.at/fade2d/html/
 
-## Project Properties
+# Project Properties
 Inside Properties of your project,
 
 1. Go to C/C++ > General. Copy the path to include folders of the libraries and paste it inside Additional Include Directories. The path will look similar to C:\opencv\build\include. Then, click Apply.
@@ -36,10 +36,10 @@ Inside Properties of your project,
 
 3. Go to linker > Input > Additional Dependencies. Add the lib files here. Then, click Apply.
 
-## Usage
+# Usage
 To run the program, you can use the GroundExtraction.cpp file. The program uses another program called BlockProcessor to process the point cloud block by block. Each block is limited to a maximum of 100,000 points for optimization purposes. Each block is processed to initially coarsely remove non-ground points using a morphological operation and then the approximation is refined via TIN densification. At the end each block is stitched together to form the final cloud with only the ground points.
 
-## Example
+# Example
 
 
 ## License
