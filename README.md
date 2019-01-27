@@ -6,7 +6,7 @@ This is a software for finely removing non-ground points from point clouds. The 
 2) Refinement: To compensate for the removed ground points we triangulate the coarse approximation from step 1. The program then iteratively examines the points in the original cloud to check if they are ground points. If the point is a ground point and does not exist in the coarse approximation, it is added to it.
 
 # Installation
-The project requires a few open-source libraries. I have provided the libraries along with the project so you do not have to go through the trouble of finding them:
+The project requires a few open-source libraries. 
 
 OpenCV (v3.1)<br/>
 PCL (v1.8)<br/>
@@ -21,7 +21,7 @@ Flann
 You can find a detailed tutorial on setting up OpenCV within your Visual Studio environment here:
 https://www.deciphertechnic.com/install-opencv-with-visual-studio/
 
-For installing PCL, you can check out their page. I have linked the pre-built binaries in the uploaded project so you can use those directly, but if you want to browse their source code you can find more details here:
+For installing PCL, you can check out their page. They provide pre-built binaries, but if you want to browse their source code you can find more details here:
 http://www.pointclouds.org/downloads/
 
 Fade2.5D is a great library for performing delaunay triangulation operations (2D, 2.5D and 3D). You can check out their page here for more information:
