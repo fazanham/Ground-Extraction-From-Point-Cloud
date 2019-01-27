@@ -46,11 +46,11 @@ To run the program, you can use the GroundExtraction.cpp file. The program uses 
 Free-to-use (MIT), but at your own risk.
 
 ## Credits
-Xiaoqian Zhao, Qinghua Guo, Yanjun Su, Baolin Xue,
-Improved progressive TIN densification filtering algorithm for airborne LiDAR data in forested areas,
-ISPRS Journal of Photogrammetry and Remote Sensing,
-Volume 117,
-2016,
-Pages 79-91,
-ISSN 0924-2716,
-https://doi.org/10.1016/j.isprsjprs.2016.03.016.
+Xiaoqian Zhao, Qinghua Guo, Yanjun Su, Baolin Xue,<br/>
+Improved progressive TIN densification filtering algorithm for airborne LiDAR data in forested areas,<br/>
+ISPRS Journal of Photogrammetry and Remote Sensing,<br/>
+Volume 117,<br/>
+2016,<br/>
+Pages 79-91,<br/>
+ISSN 0924-2716,<br/>
+https://doi.org/10.1016/j.isprsjprs.2016.03.016.<br/>
