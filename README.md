@@ -12,7 +12,7 @@ OpenCV (v3.1)<br/>
 PCL (v1.8)<br/>
 Fade2.5D (v1.73)
 
-3rdParty libraries used by PCL
+3rdParty libraries used by PCL<br/>
 VTK (v7.0)<br/>
 Boost (v1.61)<br/>
 Flann
