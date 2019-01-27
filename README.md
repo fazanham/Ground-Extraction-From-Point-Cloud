@@ -21,7 +21,7 @@ Flann
 You can find a detailed tutorial on setting up OpenCV within your Visual Studio environment here:
 https://www.deciphertechnic.com/install-opencv-with-visual-studio/
 
-For installing PCL, you can check out their page. They provide pre-built binaries, but if you want to browse their source code you can find more details here:
+For installing PCL, you can check out their page. They provide pre-built binaries, but if you want to play around where their source code you can do that as well.
 http://www.pointclouds.org/downloads/
 
 Fade2.5D is a great library for performing delaunay triangulation operations (2D, 2.5D and 3D). You can check out their page here for more information:
