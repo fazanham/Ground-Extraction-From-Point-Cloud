@@ -8,13 +8,13 @@ This is a software for finely removing non-ground points from point clouds. The 
 # Installation
 The project requires a few open-source libraries. I have provided the libraries along with the project so you do not have to go through the trouble of finding them:
 
-OpenCV (v3.1)
-PCL (v1.8)
+OpenCV (v3.1)<br/>
+PCL (v1.8)<br/>
 Fade2.5D (v1.73)
 
 3rdParty libraries used by PCL
-VTK (v7.0)
-Boost (v1.61)
+VTK (v7.0)<br/>
+Boost (v1.61)<br/>
 Flann
 
 ## Setup
