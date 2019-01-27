@@ -40,6 +40,11 @@ Inside Properties of your project,
 To run the program, you can use the GroundExtraction.cpp file. The program uses another program called BlockProcessor to process the point cloud block by block. Each block is limited to a maximum of 100,000 points for optimization purposes. Each block is processed to initially coarsely remove non-ground points using a morphological operation and then the approximation is refined via TIN densification. At the end each block is stitched together to form the final cloud with only the ground points.
 
 # Example
+Original Point Cloud:
+![data](https://user-images.githubusercontent.com/33495209/51795574-bfaa9180-21b3-11e9-952e-d18928fefa71.JPG)
+
+Ground Points:
+![ground](https://user-images.githubusercontent.com/33495209/51795579-d2bd6180-21b3-11e9-8462-2739e2009e56.JPG)
 
 
 ## License
