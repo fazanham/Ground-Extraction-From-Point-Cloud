@@ -36,3 +36,21 @@ Inside Properties of your project,
 
 3. Go to linker > Input > Additional Dependencies. Add the lib files here. Then, click Apply.
 
+## Usage
+To run the program, you can use the GroundExtraction.cpp file. The program uses another program called BlockProcessor to process the point cloud block by block. Each block is limited to a maximum of 100,000 points for optimization purposes. Each block is processed to initially coarsely remove non-ground points using a morphological operation and then the approximation is refined via TIN densification. At the end each block is stitched together to form the final cloud with only the ground points.
+
+## Example
+
+
+## License
+Free-to-use (MIT), but at your own risk.
+
+## Credits
+Xiaoqian Zhao, Qinghua Guo, Yanjun Su, Baolin Xue,
+Improved progressive TIN densification filtering algorithm for airborne LiDAR data in forested areas,
+ISPRS Journal of Photogrammetry and Remote Sensing,
+Volume 117,
+2016,
+Pages 79-91,
+ISSN 0924-2716,
+https://doi.org/10.1016/j.isprsjprs.2016.03.016.
