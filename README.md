@@ -1,9 +1,9 @@
 # Ground-Extraction-From-Point-Cloud
 This is a software for finely removing non-ground points from point clouds. The software consists of two major steps: 
 
-1) Coarse Removal: The program coarsely filters out non-ground points in the point cloud using morphological operation. Although this step removes almost all of the non-ground points, it also ends up removing some of the ground points.
+1) Coarse Removal: The program coarsely filters out non-ground points in the point cloud using a morphological operation. Although this step removes almost all of the non-ground points, it also ends up removing some of the ground points.
 
-2) Refinement: To compensate for the removed ground points we triangulate the coarse approximation from step 1. The program then iteratively examines the points in the original cloud to check if they are ground points. If the point is a ground point and does not exist in the coarse approximation, it is added to it.
+2) Refinement: To compensate for the removed ground points we triangulate the coarse approximation from step 1. The program then iteratively examines the points in the original cloud to check if they can be characterized as ground points in a given TIN. If the point is determined to be a ground point and does not exist in the TIN, it is added to it.
 
 # Installation
 The project requires a few open-source libraries. 
